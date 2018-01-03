@@ -53,3 +53,7 @@ prompt_git() {
 }
 
 PS1=$'\e[0;31m$(prompt_git)\e[0m$ '
+
+# GOLANG
+# https://golang.org/doc/install
+export PATH=$PATH:/usr/local/go/bin
