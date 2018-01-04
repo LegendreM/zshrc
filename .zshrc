@@ -1,7 +1,3 @@
-parse_git_branch() {
-     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'
-}
-
 prompt_git() {
     local s='';
     local branchName='';
@@ -46,7 +42,7 @@ prompt_git() {
  
         [ -n "${s}" ] && s=" [${s}]";
  
-        echo -e "${1}${branchName}${blue}${s}";
+        echo -e "${1}${branchName}${s}";
     else
         return;
     fi;
