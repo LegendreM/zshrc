@@ -48,4 +48,4 @@ prompt_git() {
     fi;
 }
 
-PS1='$(prompt_git)$ '
+PS1='\e[0;33m$(prompt_git)$ \e[0m'
