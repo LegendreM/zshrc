@@ -48,4 +48,4 @@ prompt_git() {
     fi;
 }
 
-PS1='\e[0;36m\n$PWD\n\e[0;33m$(prompt_git)$ \e[0m'
+PS1='\e[0;36m\n$PWD\n\e[0m\e[0;33m$(prompt_git)$ \e[0m'
