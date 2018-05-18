@@ -1,5 +1,5 @@
 # Shell prompt
-source ./.prompt.sh
+source $HOME/zshrc/.prompt.sh
 
 # Shell env var
-source ./.env.sh
+source $HOME/zshrc/.env.sh
